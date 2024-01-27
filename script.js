@@ -1,6 +1,10 @@
 $('.carousel').slick({
-    prevArrow: '<img src="img/Arrow_left.svg">',
-    nextArrow: '<img src="img/Arrow_right.svg">',
+    prevArrow: false,
+    nextArrow: false,
     autoplay: true,
     autoplaySpeed: 1000,
 });
+
+function feedback() {
+    alert('Что-то интересное')
+}
